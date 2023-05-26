@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /github/project-4/wordpress/
+RewriteBase /github/project-4/esports/wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /github/project-4/wordpress/index.php [L]
+RewriteRule . /github/project-4/esports/wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
