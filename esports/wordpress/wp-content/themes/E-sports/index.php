@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    </head>
 <body>
 
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
 
 
+<h1> <?php echo get_the_title(); ?><h1>
+
+<?php get_footer(); ?>
+
 
 <?php wp_head(); ?>
 
 
 
-<h1> <?php echo get_the_title(); ?><h1>
 
-<?php get_footer();?>
+
+
+
 
 
     
