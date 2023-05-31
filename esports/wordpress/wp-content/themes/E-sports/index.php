@@ -7,6 +7,7 @@
     <title>Document</title>
     </head>
 <body>
+<?php wp_head(); ?>
 
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
@@ -15,11 +16,12 @@
 <h1> <?php echo get_the_title(); ?><h1>
 
 <?php get_footer(); ?>
+<?php get_header(); ?>
 
 
 
 
-<?php wp_head(); ?>
+
 
 
 
