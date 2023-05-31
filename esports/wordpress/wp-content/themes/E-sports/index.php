@@ -14,17 +14,16 @@
 
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-<div class="test">
-<p>hallo wereld </p>
-<p>hallo wereld </p>
-<p>hallo wereld </p>
-</div>
-</div>
+
 
 
 
 <h1> <?php echo get_the_title(); ?><h1>
+    
+    <div class="test">
     <p> <?php echo get_the_content(); ?> </p>
+    </div>
+   
     <p> <?php echo get_the_date(); ?> </p>
     <?php get_footer(); ?>
 

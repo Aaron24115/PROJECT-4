@@ -21,7 +21,7 @@ a{
 }
 
 div.test{
-    background-color: lightblue;
+    background-color: blue;
     font-weight: bold;
     font-size: larger;
     letter-spacing: 0.4px;
@@ -30,6 +30,13 @@ div.test{
     margin:1cm auto;
     border:solid 1px black;
     border-radius: 10px;
+}
+
+
+p{
+    font-size: 20px;
+    color: white;
+    
 }
 
 
