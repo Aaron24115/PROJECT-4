@@ -20,3 +20,16 @@ a{
     color: white;
 }
 
+div.test{
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 0.4px;
+    width: 400px;
+    padding: 1cm;
+    margin:1cm auto;
+    border:solid 1px black;
+    border-radius: 10px;
+}
+
+
