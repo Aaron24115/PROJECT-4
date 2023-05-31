@@ -26,6 +26,11 @@ ul.sub-menu{
   
 }
 
+ul.menu li{
+    list-style: none;
+    
+}
+
 ul.menu li:hover ul.sub-menu{
     display: block;
 }
