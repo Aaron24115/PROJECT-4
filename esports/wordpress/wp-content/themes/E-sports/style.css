@@ -13,6 +13,8 @@ ul.menu{
     display: flex;
     justify-content: space-around;
     color: white;
+    font-size: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 ul.sub-menu{

@@ -15,7 +15,18 @@
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
 
-<h1>123454</h1>
+<<<<<<< HEAD
+
+=======
+
+    
+   
+    <p> <?php echo get_the_content(); ?> </p>
+
+   
+    <p> <?php echo get_the_date(); ?> </p>
+    <?php get_footer(); ?>
+>>>>>>> b88c93f951543a11e44913875e6524450e7e1da8
 
 
 <h1> <?php echo get_the_title(); ?><h1>
