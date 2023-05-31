@@ -20,9 +20,9 @@
 
 <h1> <?php echo get_the_title(); ?><h1>
     
-    <div class="test">
+   
     <p> <?php echo get_the_content(); ?> </p>
-    </div>
+
    
     <p> <?php echo get_the_date(); ?> </p>
     <?php get_footer(); ?>
