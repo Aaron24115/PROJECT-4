@@ -1,1 +1,1 @@
-<?php /* Template Name: CustomPage */ ?>
+<?php /* Template Name: esports */ ?>
