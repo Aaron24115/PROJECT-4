@@ -14,8 +14,6 @@
 
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-<h1>123566 vasco</h1>
-
 
 
 
