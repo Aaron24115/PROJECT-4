@@ -12,6 +12,8 @@
 
 
 
+
+
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
 
@@ -26,7 +28,7 @@
    
     <p> <?php echo get_the_date(); ?> </p>
   <div class="footer">  
-    <?php 
+    <?php get_footer(); 
     echo "<h3>Deze pagina is bijgewerkt op ".date("d-m-Y")."</h3>";
     ?> 
 </div>
