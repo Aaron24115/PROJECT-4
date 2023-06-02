@@ -20,3 +20,20 @@ function register_my_menus() {
    add_action( 'init', 'register_my_menus' );
 
    ?>
+
+<?php 
+
+function eigen_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Widgetized Area',
+        'id'            => 'widgetized-area',
+        'before_widget' => '<div class="widgetized-area">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widgetized-area-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+
+add_action( 'widgets_init', 'eigen_widgets_init' );
+
+?>

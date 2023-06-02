@@ -25,7 +25,11 @@
 
    
     <p> <?php echo get_the_date(); ?> </p>
-    <?php get_footer(); ?>
+  <div class="footer">  
+    <?php 
+    echo "<h3>Deze pagina is bijgewerkt op ".date("d-m-Y")."</h3>";
+    ?> 
+</div>
 
    
 
