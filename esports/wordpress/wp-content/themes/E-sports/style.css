@@ -61,8 +61,18 @@ p{
 }
 
 div.img_naast_elkaar{
-   display: flex;
+    margin-top: 50px;
+    display: flex;
+align-items: center;
 }
+
+img.wp-image-72{
+   margin-left: 20px ;
+}
+    
+
+
+
 
 
 

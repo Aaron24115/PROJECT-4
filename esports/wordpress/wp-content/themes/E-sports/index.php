@@ -10,17 +10,10 @@
 
 <?php wp_head(); ?>
 
-
-
-
-
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-
-
 <h1> <?php echo get_the_title(); ?><h1>
-    
-   <div class="img_naast_elkaar">
+    <div class="img_naast_elkaar">
     <p class="tekst"> <?php echo get_the_content(); ?> </p>
     </div>
 
