@@ -18,12 +18,11 @@
 
 
 
-
-
 <h1> <?php echo get_the_title(); ?><h1>
     
-   
-    <p> <?php echo get_the_content(); ?> </p>
+   <div class="img_naast_elkaar">
+    <p class="tekst"> <?php echo get_the_content(); ?> </p>
+    </div>
 
    
     <p> <?php echo get_the_date(); ?> </p>
