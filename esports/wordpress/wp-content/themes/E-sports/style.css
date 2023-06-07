@@ -52,7 +52,22 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
+p{
+    font-size: 16px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+    
+}
 
+div.img_naast_elkaar{
+    display: flex;
+    justify-content: space-around;
+    
+  
+   
+}
 
 
 
