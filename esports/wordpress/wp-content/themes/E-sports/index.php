@@ -12,13 +12,13 @@
 
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
-<h1> <?php echo get_the_title(); ?><h1>
+<h1 class="tekst_center"> <?php echo get_the_title(); ?><h1>
     <div class="img_naast_elkaar">
     <p class="tekst"> <?php echo get_the_content(); ?> </p>
     </div>
 
    
-    <p> <?php echo get_the_date(); ?> </p>
+   
   <div class="footer">  
     <?php get_footer(); 
     echo "<h3>Deze pagina is bijgewerkt op ".date("d-m-Y")."</h3>";

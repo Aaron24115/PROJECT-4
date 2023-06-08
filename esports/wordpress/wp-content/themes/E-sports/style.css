@@ -7,11 +7,13 @@ body{
 ul.menu{
     list-style-type: none;
     margin: 0px;
-    padding: 16px;
+    padding: 18px;
     overflow: hidden;
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+   justify-content: center;
+   justify-content: space-evenly;
     color: white;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,6 +32,7 @@ ul.sub-menu{
 
 ul.menu li{
     list-style: none;
+   
     
 }
 
@@ -47,27 +50,35 @@ a{
 div.footer{
 background-color: lightblue;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
-
 }
 
-p{
+img.wp-image-93 {
+    padding-left: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    img.wp-image-93 {
+      padding-left: 0px;
+    }
+  }
+  
+
+p.tekst{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
- 
+    margin: 0px;
+   
 }
 
-div.img_naast_elkaar{
-    margin-top: 50px;
+
+h1.tekst_center{
     display: flex;
-align-items: center;
-}
-
-img.wp-image-72{
-   margin-left: 20px ;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
     
 
