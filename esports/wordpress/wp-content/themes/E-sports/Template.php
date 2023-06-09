@@ -1,4 +1,4 @@
-<?php /* Template Name: tournooi */ ?>
+<?php /* Template Name: Esports */ ?>
 
 <!DOCTYPE html>
 <html lang="en">

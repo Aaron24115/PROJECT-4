@@ -11,17 +11,13 @@
 <?php wp_head(); ?>
 
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-
+<div class="tekst_in_img">
 <h1 class="tekst_center"> <?php echo get_the_title(); ?><h1>
-
-<img src="<?php echo get_template_directory_uri(); ?>/img/apex_logo.jpg" width="70px" height=90px" alt=""/>
-
-
+<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/apex_logo.jpg" alt="apex_logo">
+</div>
 
 
 
-
-    
 
 <p class="tekst"> <?php echo get_the_content(); ?> </p>
     
