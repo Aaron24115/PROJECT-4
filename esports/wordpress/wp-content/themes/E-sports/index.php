@@ -18,10 +18,12 @@
     </div>
 
    
+
+   
    
   <div class="footer">  
     <?php get_footer(); 
-    echo "<h3>Deze pagina is bijgewerkt op ".date("d-m-Y")."</h3>";
+   
     ?> 
 </div>
 

@@ -52,34 +52,13 @@ background-color: lightgray;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-img.wp-image-93 {
-    padding-left: 10px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    /* Adjust padding for smaller screens */
-    img.wp-image-93 {
-      padding-left: 0px;
-    }
-  }
-  
-
-p.tekst{
-    display: flex;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    color: black;
-    margin: 0px;
+img.wp-image-113{
+   max-width: 100%;
    
 }
 
 
-h1.tekst_center{
-    display: flex;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
     
 
 
