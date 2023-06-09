@@ -1,10 +1,10 @@
-body{
+body {
     background-color: lightgray;
     margin: 0px;
     padding: 0px;
 }
 
-ul.menu{
+ul.menu {
     list-style-type: none;
     margin: 0px;
     padding: 18px;
@@ -12,52 +12,53 @@ ul.menu{
     background-color: black;
     display: flex;
     justify-content: flex-end;
-   justify-content: center;
-   justify-content: space-evenly;
+    justify-content: center;
+    justify-content: space-evenly;
     color: white;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-ul.sub-menu{
+
+ul.sub-menu {
     display: none;
-   position: absolute;
-  background-color:black;
-  min-width: 80px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-  
+    position: absolute;
+    background-color: black;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
 }
 
-ul.menu li{
+ul.menu li {
     list-style: none;
-   
-    
+
+
 }
 
-ul.menu li:hover ul.sub-menu{
+ul.menu li:hover ul.sub-menu {
     display: block;
 }
 
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
 
-div.footer{
-background-color: lightgray;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+div.footer {
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img.logo {
     width: 100%;
     max-height: 600px;
-    margin-top:-22px ;
-  
-    }
+    margin-top: -22px;
+
+}
 
 @media (max-width: 600px) {
     img.logo {
@@ -65,53 +66,57 @@ img.logo {
     }
 }
 
-   
 
-h1.tekst_center{
+
+h1.tekst_center {
     position: absolute;
-   font-size: 30px;
-   color: white;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-   left: 42%;
-  
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    left: 42%;
+
 }
 
- 
- @media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 768px) {
     h1.tekst_center {
-       font-size: 24px;
-       left: 34%;
+        font-size: 24px;
+        left: 34%;
     }
- }
- 
- @media only screen and (max-width: 480px) {
-    h1.tekst_center {
-       font-size: 18px;
-       left: 34%;
-    }
- }
- 
-
-
-
-
-.wp-image-62 { margin-left: 20px;}
-
-
-
-.teamleden-namen {text-align: center}
-
-
-
-hr.wp-block-separator{
-    margin-top:50px ;
 }
 
-h2.wp-block-heading{
+@media only screen and (max-width: 480px) {
+    h1.tekst_center {
+        font-size: 18px;
+        left: 34%;
+    }
+}
+
+
+
+
+
+.wp-image-62 {
+    margin-left: 20px;
+}
+
+
+
+.teamleden-namen {
+    text-align: center
+}
+
+
+
+hr.wp-block-separator {
+    margin-top: 50px;
+}
+
+h2.wp-block-heading {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     font-size: 30px;
     color: black;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 
 p.tekst_toernooi {
@@ -129,7 +134,7 @@ div.wp-block-buttons {
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     color: black;
-   
+
 }
 
 a.wp-block-button__link {
@@ -141,7 +146,7 @@ a.wp-block-button__link {
     font-size: 20px;
     margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    margin-top:35px ;
+    margin-top: 35px;
 }
 
 @media (max-width: 768px) {
@@ -152,16 +157,67 @@ a.wp-block-button__link {
     a.wp-block-button__link {
         font-size: 18px;
         margin: 5px;
-        margin-top:30px ;
+        margin-top: 30px;
     }
 }
 
 
-a.wp-block-button__link:hover{
- 
+a.wp-block-button__link:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 
+p.tekst_nieuws {
+    font-size: 20px;
+    color: rgb(9, 1, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+   padding-left:5px ;
+    max-width: 700px;
+    margin-top:65px ;
+}
+
+@media (max-width: 768px) {
+    p.tekst_nieuws {
+        font-size: 13px;
+        padding-left: 0px;
+        margin-top:35px ;
+    }
+
+}
+
+img.wp-image-136{
+    display: flex;
+    max-height: 600px;
+    margin-top: -22px;
+   margin-left:1000px;
+   margin-top:-275px;
+  
+}
+
+/* Responsive styles */
+@media (max-width: 1100px) {
+    img.wp-image-136 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+}
 
 
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    flex-direction: column;
+}
 
+input.wpcf7form-control{
+    justify-content: center;
+    align-items: center;
+}

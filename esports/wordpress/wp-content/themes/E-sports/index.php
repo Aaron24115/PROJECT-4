@@ -21,7 +21,6 @@
 
 <p class="tekst"> <?php echo get_the_content(); ?> </p>
 
-<p><?php echo the_field('test'); ?></p>
     
 
    
