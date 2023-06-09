@@ -13,11 +13,21 @@
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
 <h1 class="tekst_center"> <?php echo get_the_title(); ?><h1>
-    <div class="img_naast_elkaar">
-    <p class="tekst"> <?php echo get_the_content(); ?> </p>
-    </div>
+
+<img src="<?php echo get_template_directory_uri(); ?>/img/apex_logo.jpg" width="70px" height=90px" alt=""/>
+
+
+
+
+
+
+    
+
+<p class="tekst"> <?php echo get_the_content(); ?> </p>
+    
 
    
+
 
    
    
