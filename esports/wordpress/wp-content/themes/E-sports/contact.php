@@ -11,7 +11,7 @@
 
 <?php wp_head(); ?>
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-    <h1 class="teamleden-namen"> <?php echo get_the_title(); ?><h1>
+    <h1 class="contact"> <?php echo get_the_title(); ?><h1>
     <p> <?php echo get_the_content(); ?> </p>
     <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
     <?php get_footer(); ?>

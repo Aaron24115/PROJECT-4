@@ -181,7 +181,7 @@ p.tekst_nieuws {
 
 @media (max-width: 768px) {
     p.tekst_nieuws {
-        font-size: 13px;
+        font-size: 18px;
         padding-left: 0px;
         margin-top:35px ;
     }
@@ -217,7 +217,47 @@ label{
     flex-direction: column;
 }
 
-input.wpcf7form-control{
-    justify-content: center;
-    align-items: center;
+input.submit_contact{
+   margin-left:700px ;
+  margin-top:-300px ;
+  background-color: black;
+  color: white;
+  padding:10px ;
+}
+
+h1.contact{
+   text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input.submit_contact:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+Label.name{
+    font-size: 20px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+   
+}
+label.email{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
+    font-size: 20px;
+}
+
+
+label.message{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
+    font-size: 20px;
+}
+
+input.wpcf7-form-control{
+    background-color: black;
+    padding:10px ;
+    color: white;
+
 }
