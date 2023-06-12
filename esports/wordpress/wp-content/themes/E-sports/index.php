@@ -21,6 +21,15 @@
 
 <p class="tekst"> <?php echo get_the_content(); ?> </p>
 
+
+<div class="footer2">
+<img class="youtube" src="<?php echo get_template_directory_uri(); ?>../img/youtube.jpeg" alt="youtube_logo">
+<img class="insta" src="<?php echo get_template_directory_uri(); ?>/img/Instagram.png" alt="insta_logo">
+<img class="twitter" src="<?php echo get_template_directory_uri(); ?>/img/twitter.jpg" alt="twitter_logo">
+
+</div>
+
+
     
 
    

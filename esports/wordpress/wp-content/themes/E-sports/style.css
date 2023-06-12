@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+   background-color: #131316;
     margin: 0px;
     padding: 0px;
 }
@@ -49,8 +49,10 @@ a {
 
 
 div.footer {
-    background-color: lightgray;
+    background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+   
 }
 
 img.logo {
@@ -92,10 +94,6 @@ h1.tekst_center {
     }
 }
 
-
-
-
-
 .wp-image-62 {
     margin-left: 20px;
 }
@@ -110,18 +108,19 @@ h1.tekst_center {
 
 hr.wp-block-separator {
     margin-top: 50px;
+    color: white;
 }
 
 h2.wp-block-heading {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     font-size: 30px;
-    color: black;
+    color: white;
     margin-top: 35px;
 }
 
 p.tekst_toernooi {
     font-size: 20px;
-    color: black;
+    color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     width: 100%;
     text-align: center;
@@ -138,8 +137,8 @@ div.wp-block-buttons {
 }
 
 a.wp-block-button__link {
-    background-color: black;
-    color: white;
+    background-color: rgb(235, 229, 229);
+    color: black;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -177,6 +176,7 @@ p.tekst_nieuws {
    padding-left:5px ;
     max-width: 700px;
     margin-top:65px ;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -217,14 +217,21 @@ label{
     flex-direction: column;
 }
 
-input.submit_contact{
-   margin-left:700px ;
-  margin-top:-300px ;
-  background-color: black;
-  color: white;
-  padding:10px ;
+input.submit_contact {
+    margin-left: 700px;
+    margin-top: -300px;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
+@media (max-width: 768px) {
+    input.submit_contact {
+       margin-left: 170px;
+       margin-top: 10px;
+    }
+ }
 
+ 
 h1.contact{
    text-align: center;
     font-size: 30px;
@@ -234,30 +241,86 @@ h1.contact{
 }
 
 input.submit_contact:hover{
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(238, 234, 234, 0.2);
     cursor: pointer;
 }
 
 Label.name{
     font-size: 20px;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+   color: white;
    
 }
+input.wpcf7-form-control{
+    color: white;
+}
+
 label.email{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
     font-size: 20px;
+    color:white;
+    
 }
 
 
 label.message{
-    color: black;
+    color:white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
     font-size: 20px;
+    color:white;
+    
 }
+
+textarea.wpcf7-form-control {
+    background-color: black;
+    padding:10px ;
+    color: white;
+}
+
+
 
 input.wpcf7-form-control{
     background-color: black;
     padding:10px ;
+   }
+div.wpcf7-response-output{
     color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+}
+h1.contact{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
 
+div.footer2{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    margin-top: 100px;
+  
+    padding:10px ;
+}
+img.youtube{
+    width: 50px;
+    height: 50px;
+}
+
+
+img.insta{
+    width: 50px;
+    height: 50px;
+}
+img.twitter{
+    width: 50px;
+    height: 50px;
 }
