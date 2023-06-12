@@ -306,21 +306,59 @@ div.footer2{
     align-items: center;
     flex-direction: row;
     color: white;
-    margin-top: 100px;
-  
-    padding:10px ;
-}
+    margin-top: 150px;
+    padding:18px ;
+   }
+
+@media (max-width: 768px) {
+    div.footer2 {
+     margin-top: 50px;
+    }
+ }
+
+ p.footer_tekst{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 205px;
+    font-size:16px ;
+    position: absolute;
+  text-align: center;
+  margin-left:625px ;
+
+ }  
+
+
 img.youtube{
     width: 50px;
     height: 50px;
+   
+   
+}
+img.youtube:hover{
+   
+    cursor: pointer;
 }
 
 
 img.insta{
     width: 50px;
     height: 50px;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+img.insta:hover{
+   
+    cursor: pointer;
 }
 img.twitter{
     width: 50px;
     height: 50px;
+}
+
+img.twitter:hover{
+   
+    cursor: pointer;
 }
