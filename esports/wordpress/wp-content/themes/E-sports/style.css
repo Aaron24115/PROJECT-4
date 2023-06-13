@@ -11,14 +11,15 @@ ul.menu {
     overflow: hidden;
     background-color: black;
     display: flex;
-    justify-content: flex-end;
-    justify-content: center;
+     justify-content: center;
     justify-content: space-evenly;
+    align-items: center;
     color: white;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 
 ul.sub-menu {
     display: none;
@@ -35,6 +36,13 @@ ul.menu li {
     list-style: none;
 
 
+    }
+@media (max-width: 768px) {
+    ul.menu li {
+        list-style: none;
+        padding: 10px;
+      
+    }
 }
 
 ul.menu li:hover ul.sub-menu {
@@ -298,7 +306,7 @@ h1.contact{
     margin-top: 35px;
 }
 
-div.footer2{
+footer.footer2{
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -321,13 +329,20 @@ div.footer2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-top: 205px;
+    margin-top: 202px;
     font-size:16px ;
     position: absolute;
   text-align: center;
   margin-left:625px ;
 
- }  
+ } 
+ 
+ @media (max-width: 768px) {
+    p.footer_tekst {
+     margin-top: 205px;
+     margin-left: 100px;
+    }
+ }
 
 
 img.youtube{
@@ -362,3 +377,4 @@ img.twitter:hover{
    
     cursor: pointer;
 }
+
