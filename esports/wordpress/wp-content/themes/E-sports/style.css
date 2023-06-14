@@ -1,5 +1,5 @@
 body {
-   background-color: #131313;     
+    background-color: #131313;
     margin: 0px;
     padding: 0px;
 }
@@ -11,7 +11,7 @@ ul.menu {
     overflow: hidden;
     background-color: black;
     display: flex;
-     justify-content: center;
+    justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     color: white;
@@ -36,12 +36,13 @@ ul.menu li {
     list-style: none;
 
 
-    }
+}
+
 @media (max-width: 768px) {
     ul.menu li {
         list-style: none;
         padding: 10px;
-      
+
     }
 }
 
@@ -60,7 +61,7 @@ div.footer {
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: none;
-   
+
 }
 
 img.logo {
@@ -128,7 +129,7 @@ h2.wp-block-heading {
 
 p.tekst_toernooi {
     font-size: 20px;
-    color:white;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     width: 100%;
     text-align: center;
@@ -181,9 +182,9 @@ p.tekst_nieuws {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     width: 100%;
     text-align: center;
-   padding-left:5px ;
+    padding-left: 5px;
     max-width: 700px;
-    margin-top:65px ;
+    margin-top: 65px;
     color: white;
 }
 
@@ -191,18 +192,18 @@ p.tekst_nieuws {
     p.tekst_nieuws {
         font-size: 18px;
         padding-left: 0px;
-        margin-top:35px ;
+        margin-top: 35px;
     }
 
 }
 
-img.wp-image-136{
+img.wp-image-136 {
     display: flex;
     max-height: 600px;
     margin-top: -22px;
-   margin-left:1000px;
-   margin-top:-275px;
-  
+    margin-left: 1000px;
+    margin-top: -275px;
+
 }
 
 
@@ -216,7 +217,7 @@ img.wp-image-136{
 }
 
 
-label{
+label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,82 +233,86 @@ input.submit_contact {
     color: white;
     padding: 10px;
 }
+
 @media (max-width: 768px) {
     input.submit_contact {
-       margin-left: 170px;
-       margin-top: 10px;
+        margin-left: 190px;
+        margin-top: 10px;
     }
- }
+}
 
- 
-h1.contact{
-   text-align: center;
+
+h1.contact {
+    text-align: center;
     font-size: 30px;
     color: black;
     margin-top: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-input.submit_contact:hover{
+input.submit_contact:hover {
     box-shadow: 0px 8px 16px 0px rgba(238, 234, 234, 0.2);
     cursor: pointer;
 }
 
-Label.name{
+Label.name {
     font-size: 20px;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-   color: white;
-   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: white;
+
 }
-input.wpcf7-form-control{
+
+input.wpcf7-form-control {
     color: white;
 }
 
-label.email{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
+label.email {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     font-size: 20px;
-    color:white;
-    
+    color: white;
+
 }
 
 
-label.message{
-    color:white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
+label.message {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     font-size: 20px;
-    color:white;
-    
+    color: white;
+
 }
 
 textarea.wpcf7-form-control {
     background-color: black;
-    padding:10px ;
+    padding: 10px;
     color: white;
 }
 
 
 
-input.wpcf7-form-control{
+input.wpcf7-form-control {
     background-color: black;
-    padding:10px ;
-   }
-div.wpcf7-response-output{
+    padding: 10px;
+}
+
+div.wpcf7-response-output {
     color: white;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-   
+
 }
-h1.contact{
+
+h1.contact {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 35px;
-    
+
 }
 
-footer.footer2{
+footer.footer2 {
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -316,16 +321,16 @@ footer.footer2{
     flex-direction: row;
     color: white;
     margin-top: 150px;
-    padding:18px ;
-   }
+    padding: 18px;
+}
 
 @media (max-width: 768px) {
     footer.footer2 {
-     margin-top: 50px;
+        margin-top: 50px;
     }
- }
+}
 
- footer.footer3{
+footer.footer3 {
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -334,70 +339,73 @@ footer.footer2{
     flex-direction: row;
     color: white;
     margin-top: 150px;
-    padding:18px ;
-    position: relative ;
-   }
+    padding: 18px;
+    position: relative;
+}
 
 @media (max-width: 768px) {
     footer.footer3 {
-     margin-top: 50px;
+        margin-top: 50px;
     }
- }
- 
+}
 
- p.footer_tekst{
+
+p.footer_tekst {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-   margin-top: 202px;
-    font-size:16px ;
+    margin-top: 202px;
+    font-size: 16px;
     position: absolute;
-  text-align: center;
-  margin-left:625px ;
+    text-align: center;
+    margin-left: 625px;
 
- } 
- 
- @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     p.footer_tekst {
-     margin-top: 105px;
-     margin-left: 125px;
+        margin-top: 105px;
+        margin-left: 125px;
     }
- }
+}
 
 
-img.youtube{
+img.youtube {
     width: 50px;
     height: 50px;
-   
-   
+
+
 }
-img.youtube:hover{
-   
+
+img.youtube:hover {
+
     cursor: pointer;
 }
 
 
-img.insta{
+img.insta {
     width: 50px;
     height: 50px;
-    padding-left:50px ;
+    padding-left: 50px;
     padding-right: 50px;
 }
 
-img.insta:hover{
-   
+img.insta:hover {
+
     cursor: pointer;
 }
-img.twitter{
+
+img.twitter {
     width: 50px;
     height: 50px;
 }
 
-img.twitter:hover{
-   
+img.twitter:hover {
+
     cursor: pointer;
 }
-h1.leeg{
+
+h1.leeg {
     margin: 0px;
     padding: 0px;
 
@@ -405,82 +413,216 @@ h1.leeg{
 
 
 
-img.wp-image-156{
-   margin-top:-86px ;
+img.wp-image-156 {
+    margin-top: -86px;
 
 
 }
+
 @media(max-width: 768px) {
-    img.wp-image-156{
-        margin-top:-65px ;
-     
-     
-     }
+    img.wp-image-156 {
+        margin-top: -65px;
+
+
+    }
 }
+
 @media(max-width: 420px) {
-    img.wp-image-156{
-        margin-top:-75px ;
-     
-     
-     }
+    img.wp-image-156 {
+        margin-top: -75px;
+
+
+    }
 }
-    
 
 
-h1.Team{
-   display: flex;
-   justify-content: center;
+
+h1.Team {
+    display: flex;
+    justify-content: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
-     position:relative ;
-   }
+    position: relative;
+}
+
 @media(max-width: 768px) {
-    h1.Team{
-       color: red;
-       padding: 0px;
-       margin: 0px;
+    h1.Team {
+        color: gray;
+        padding: 0px;
+        margin: 0px;
 
-         
-     
-     }
+
+
+    }
 }
 
-h2.wij_zijn_vicious{
+h2.wij_zijn_vicious {
     font-size: 24px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
-    img.wp-image-164.size-full{
-       height: 350px;
-         width: 425px;
-         margin-left:100px ;
-         
-     
-     
-     }
 
-        @media(max-width: 768px) {
-            img.wp-image-164.size-full{
-            height: 350px;
-                width: 530px;
-                margin-left:0px ;
-                
-            
-            
-            }
-        
-        
-        }
+img.wp-image-164.size-full {
+    height: 350px;
+    width: 425px;
+    margin-left: 100px;
 
-     p{
-        color: white;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
 
-     }
+
+}
+
+@media(max-width: 768px) {
+    img.wp-image-164.size-full {
+        height: 350px;
+        width: 459px;
+        margin-left: 0px;
+
+
+
+    }
+
+
+}
+
+p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+
+}
+
 .teamleden-namen {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
-.h2-toernooien { margin-top:  60px;}
+
+
+img.wp-image-204 {
+    margin-left: 655px;
+}
+
+td {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+img.wp-image-204 {
+    margin-left: 655px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-204 {
+        margin-left: 160px;
+    }
+}
+
+img.wp-image-207 {
+    margin-left: 655px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-207 {
+        margin-left: 160px;
+    }
+}
+
+img.wp-image-206 {
+    margin-left: 655px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-206 {
+        margin-left: 160px;
+    }
+}
+
+img.wp-image-208 {
+    margin-left: 655px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-208 {
+        margin-left: 150px;
+    }
+}
+
+img.wp-image-209 {
+    margin-left: 655px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-209 {
+        margin-left: 160px;
+    }
+}
+p.Ramino{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+p.tekst_Ramino{
+    font-size: 20px;
+    margin-left:300px ;
+}
+img.wp-image-214{
+    padding-left:175px ;
+}
+@media(max-width: 768px) {
+    img.wp-image-214{
+        padding-left:0px ;
+    }
+}
+@media(max-width: 768px) {
+    p.tekst_Ramino{
+        margin-left:0px ;
+    }
+}
+img.wp-image-235{
+    padding-left:175px ;
+}
+@media(max-width: 768px) {
+    img.wp-image-235{
+        padding-left:0px ;
+    }
+}
+
+img.wp-image-247{
+    padding-left:175px ;
+}
+@media(max-width: 768px) {
+    img.wp-image-247{
+        padding-left:0px ;
+    }
+}
+img.wp-image-257{
+    padding-left:175px ;
+}
+@media(max-width: 768px) {
+    img.wp-image-257{
+        padding-left:0px ;
+    }
+}
+img.wp-image-262{
+    padding-left:175px ;
+}
+@media(max-width: 768px) {
+    img.wp-image-262{
+        padding-left:0px ;
+    }
+}
+th{
+  margin-top:10px ;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    
+}
+h2.Overwinning{
+    margin-top: 60px;
+}
+img.wp.image-235{
+ padding-left:175px ;
+}
+
