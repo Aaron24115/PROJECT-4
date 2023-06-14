@@ -13,6 +13,8 @@
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     <h1 class="teamleden-namen"> <?php echo get_the_title(); ?><h1>
     <p> <?php echo get_the_content(); ?> </p>
+    <h2 class="h2-toernooien"> <?php echo get_the_title(); ?><h2>
     <?php get_footer(); ?>
+
 </body>
 </html>
