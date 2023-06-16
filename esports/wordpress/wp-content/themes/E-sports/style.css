@@ -556,73 +556,87 @@ img.wp-image-209 {
         margin-left: 160px;
     }
 }
-p.Ramino{
-display: flex;
-justify-content: center;
-align-items: center;
+
+p.Ramino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
-p.tekst_Ramino{
+
+p.tekst_Ramino {
     font-size: 20px;
-    margin-left:300px ;
+    margin-left: 300px;
 }
-img.wp-image-214{
-    padding-left:175px ;
+
+img.wp-image-214 {
+    padding-left: 175px;
 }
+
 @media(max-width: 768px) {
-    img.wp-image-214{
-        padding-left:0px ;
-    }
-}
-@media(max-width: 768px) {
-    p.tekst_Ramino{
-        margin-left:0px ;
-    }
-}
-img.wp-image-235{
-    padding-left:175px ;
-}
-@media(max-width: 768px) {
-    img.wp-image-235{
-        padding-left:0px ;
+    img.wp-image-214 {
+        padding-left: 0px;
     }
 }
 
-img.wp-image-247{
-    padding-left:175px ;
-}
 @media(max-width: 768px) {
-    img.wp-image-247{
-        padding-left:0px ;
+    p.tekst_Ramino {
+        margin-left: 0px;
     }
 }
-img.wp-image-257{
-    padding-left:175px ;
+
+img.wp-image-235 {
+    padding-left: 175px;
 }
+
 @media(max-width: 768px) {
-    img.wp-image-257{
-        padding-left:0px ;
+    img.wp-image-235 {
+        padding-left: 0px;
     }
 }
-img.wp-image-262{
-    padding-left:175px ;
+
+img.wp-image-247 {
+    padding-left: 175px;
 }
+
 @media(max-width: 768px) {
-    img.wp-image-262{
-        padding-left:0px ;
+    img.wp-image-247 {
+        padding-left: 0px;
     }
 }
-th{
-  margin-top:10px ;
+
+img.wp-image-257 {
+    padding-left: 175px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-257 {
+        padding-left: 0px;
+    }
+}
+
+img.wp-image-262 {
+    padding-left: 175px;
+}
+
+@media(max-width: 768px) {
+    img.wp-image-262 {
+        padding-left: 0px;
+    }
+}
+
+th {
+    margin-top: 10px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    
-}
-h2.Overwinning{
-    margin-top: 60px;
-}
-img.wp.image-235{
- padding-left:175px ;
+
 }
 
+h2.Overwinning {
+    margin-top: 60px;
+}
+
+img.wp.image-235 {
+    padding-left: 175px;
+}

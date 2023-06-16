@@ -48,5 +48,3 @@ function toekomende_matches(){
 }
 
 ?>
-
-
