@@ -33,7 +33,7 @@
                         alt="youtube_logo">
                 </a>
                 <a href="https://www.instagram.com/vic_iousvultures/" target="_blank">
-                    <img class="insta" src="<?php echo get_template_directory_uri(); ?>/img/Instagram.png"
+                    <img class="insta" src="<?php echo get_template_directory_uri(); ?>/img/Instagram.jpeg"
                         alt="insta_logo">
                 </a>
                 <a href="https://www.twitter.com" target="_blank">

@@ -22,7 +22,7 @@
 <img class="youtube" src="<?php echo get_template_directory_uri(); ?>../img/youtube.jpeg" alt="youtube_logo">
 </a>
 <a href="https://www.instagram.com/vic_iousvultures/" target="_blank">
-<img class="insta" src="<?php echo get_template_directory_uri(); ?>/img/Instagram.png" alt="insta_logo">
+<img class="insta" src="<?php echo get_template_directory_uri(); ?>/img/Instagram.jpeg" alt="insta_logo">
 </a>
 <a href="https://www.twitter.com" target="_blank">
 <img class="twitter" src="<?php echo get_template_directory_uri(); ?>/img/twitter.jpg" alt="twitter_logo">
